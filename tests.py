@@ -123,5 +123,7 @@ class TestErrors(ut.TestCase):
         with self.assertRaises(ShapeError):
             prob = MaxLp(A,b,c)
 
+
 if __name__ == '__main__':
     ut.main()
+

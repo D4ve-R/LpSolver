@@ -6,4 +6,5 @@ b = [3, 3]
 c = [4, -1]
 
 prob = MaxLp(A,b,c)
-obj,x,_ = prob.solve()
+print(prob)
+#obj,x,_ = prob.solve()
